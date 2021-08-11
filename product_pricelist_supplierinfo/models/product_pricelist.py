@@ -36,7 +36,8 @@ class ProductPricelistItem(models.Model):
 
     base = fields.Selection(
         selection_add=[("supplierinfo", "Prices based on supplier info")],
-    )
+        ondelete={'supplierinfo': 'cascade'})
+
     no_supplierinfo_min_quantity = fields.Boolean(
         string="Ignore Supplier Info Min. Quantity",
     )

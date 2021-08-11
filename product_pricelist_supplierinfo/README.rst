@@ -123,6 +123,10 @@ Contributors
 
   * Lorenzo Battistini
 
+* `Vauxoo <https://www.vauxoo.com/>`_:
+
+  * Luigys Toro
+
 Maintainers
 ~~~~~~~~~~~
 
